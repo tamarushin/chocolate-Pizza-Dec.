@@ -1,10 +1,12 @@
 body {
-  width: 900 px;
+  width: 900px;
   margin: 0 auto;
 }
 
-h3 {
-  position: relative;
-  left: 200px;
-  top: 150px;
+p.ingredients {
+  text-indent: 30px;
+}
+
+#profile-pic {
+  float: left;
 }
