@@ -1,0 +1,49 @@
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.fork-logo {
+  display: inline-block;
+}
+.title {
+  display:inline-block;
+}
+.delicious {
+  font-style: bold;
+  display: block;
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+
+}
+.best-food {
+  display: block;
+  font-size: 10px;
+  font-family: 'Abel', sans-serif;
+  color: #777;
+}
+.header_right {
+  float: right;
+}
+ul li {
+  display: inline;
+}
+.header_logo p {
+  font-size: 8px;
+  display: block;
+  margin-left: 55px;
+}
+/*h1 {
+  display: inline-block;
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+  margin-left: 5px;
+}
+p {
+  font-size: 10px;
+  font-family: 'Abel', sans-serif;
+  display: inline;
+  color: #777;
+  margin-top: -17px;
+  margin-bottom: 9px;
+}*/
