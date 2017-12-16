@@ -1,0 +1,36 @@
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.fork-logo {
+  display: inline-block;
+}
+.title {
+  display:inline-block;
+}
+.delicious {
+  font-style: bold;
+  display: block;
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+
+}
+.best-food {
+  display: block;
+  font-size: 10px;
+  font-family: 'Abel', sans-serif;
+  color: #777;
+}
+.header_right {
+  float: right;
+}
+.shopping_list {
+  display: block
+}
+
+.header_logo p {
+  font-size: 8px;
+  display: block;
+  margin-left: 55px;
+}
