@@ -14,7 +14,13 @@ body {
   display: block;
   font-family: 'Yellowtail', cursive;
   font-size: 30px;
+}
+ul li {
+  display: inline;
+}
 
+div.header_icons {
+  clear: both;
 }
 .best-food {
   display: block;
@@ -25,10 +31,61 @@ body {
 .header_right {
   float: right;
 }
+div.header_icons {
+  clear: both;
+}
+span.print-btn{
+  display: inline;
+}
+
+.break_line {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
 .shopping_list {
   display: block
 }
+div.recipe_steps p {
+  padding: 10px 0px;
+  text-indent: 2em;
+  color: #666;
+  line-height: 1.5;
+}
+div.recipe_steps p:last-child {
+  margin-bottom: 20px;
+}
 
+ul.share_icons {
+  float: right;
+  list-style: none;
+  display: inline;
+  margin-left: 700px;
+  margin-top: -30px;
+}
+
+input[type="checkbox"]:checked + label {
+ text-decoration: line-through;
+}
+div.shopping_list {
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+ul.shopping_list {
+  margin-right: 200px;
+  margin-left: 60px;
+  margin-top: 37px;
+  line-height: 2;
+  display: inline-grid;
+}
+
+label {
+font-family: 'Patrick Hand', cursive;
+font-size: 18px;
+}
+
+}
 .header_logo p {
   font-size: 8px;
   display: block;
